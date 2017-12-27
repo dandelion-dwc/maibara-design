@@ -133,6 +133,7 @@ section {
 
 body {
   color: #333;
+  background-color: #f5f5f5;
 }
 
 svg {
@@ -171,9 +172,13 @@ parts
   margin-bottom: 60px;
   font-feature-settings: "palt";
   font-size: 50px;
-  font-family: YuMincho, '游明朝', serif;
   font-weight: 500;
-  color: #330d07
+  color: #330d07;
+  font-family: "HG 教科書体", "kyoukashotai", "ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+.serif {
+  font-family: YuMincho, '游明朝', serif;
 }
 
 .h1-title.underbar {
@@ -210,7 +215,7 @@ header nav {
 
 header h1 {
   float: left;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 500;
 }
 
@@ -368,11 +373,12 @@ index.html
   left: 0;
   height: 100%;
   width: 72%;
-  background: linear-gradient(90deg, #cc351b, #fff);
+  background: linear-gradient(90deg, #cc351b, #f5f5f5);
+  opacity: .8;
 }
 
 #about img {
-  width: 420px;
+  height: 304px;
 }
 
 #about .left {
@@ -433,7 +439,7 @@ index.html
   display: block;
   width: 100%;
   height: 113px;
-  background-color: #f2f0f0;
+  background-color: #dfdfdf;
   z-index: -2;
 }
 
@@ -445,8 +451,13 @@ index.html
 
 
 #curse li {
-  width: 300px;
-  height: 200px;
+  width: 315px;
+  height: 210px;
+  margin-right: 20px;
+}
+
+#curse li:last-child {
+  margin-right: 0;
 }
 
 #curse .innerWrapper {
