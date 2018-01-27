@@ -140,6 +140,12 @@ svg {
   color: #666;
 }
 
+.blockFlex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 /* ==================================================
 parts
 ====================================================*/
@@ -197,19 +203,19 @@ parts
 /* ==================================================
 header
 ====================================================*/
-header {
-  height: 70px;
+.fixed-header {
   position: fixed;
-  width: 100%;
   z-index: 1000;
-  background-color: #330d07;
+}
+
+header {
+  width: 100%;
+  background-color: #330d07 !important;
   opacity: .9;
 }
 
 header h1,
 header nav {
-  height: 70px;
-  line-height: 70px;
   color: #ddd;
 }
 
@@ -224,24 +230,17 @@ header img {
   width: 70px;
 }
 
-header nav {
-  float: right;
-}
-
-header nav li {
-  float: left;
-  margin-left: 20px;
-}
-
 header a {
   color: #ddd;
   display: inline-block;
-  height: 70px;
-  line-height: 70px;
   position: relative;
 }
 
-header a::after{
+header a:hover {
+  background-color: #661a0e;
+}
+
+/*header a::after{
   position: absolute;
   bottom: 1.0em;
   left: 0;
@@ -255,7 +254,7 @@ header a::after{
 
 header a:hover::after{
   width: 100%;
-}
+}*/
 
 /* ==================================================
 footer
@@ -342,7 +341,7 @@ index.html
 ====================================================*/
 
 .mainPic {
-  padding-top: 70px;
+  padding-top: 64px;
 }
 
 .mainPic img {
@@ -442,13 +441,6 @@ index.html
   background-color: #dfdfdf;
   z-index: -2;
 }
-
-#curse ul {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
 
 #curse li {
   width: 315px;

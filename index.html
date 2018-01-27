@@ -3,23 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>米原高校</title>
-  </head><link rel="stylesheet" href="style.css" type="text/css" />
+    <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+     <link rel="stylesheet" href="style.css">
+  </head>
   <body>
-    <header>
-      <div class="container">
-        <h1 class="serif">米原高校</h1>
-        <nav>
-          <ul>
-            <li><a href="#">お知らせ</a></li>
-            <li><a href="#">学校概要</a></li>
-            <li><a href="#">本校の教育</a></li>
-            <li><a href="#">学校生活</a></li>
-            <li><a href="#">中学生のみなさまへ</a></li>
-            <li><a href="#">アクセス</a></li>
-          </ul>
+
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">米原高校</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="">中学生のみなさまへ</a>
+            <a class="mdl-navigation__link" href="">一般・卒業生のみなさまへ</a>
+            <a class="mdl-navigation__link" href="">在校生・保護者のみなさまへ</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">お知らせ</a>
+          <a class="mdl-navigation__link" href="">学校概要</a>
+          <a class="mdl-navigation__link" href="">本校の教育</a>
+          <a class="mdl-navigation__link" href="">学校生活</a>
+          <a class="mdl-navigation__link" href="">中学生のみなさまへ</a>
+          <a class="mdl-navigation__link" href="">アクセス</a>
         </nav>
       </div>
-    </header>
+    </div>
 
     <div class="mainPic">
       <img src="main_pic.jpg" alt="メイン画像">
@@ -92,7 +108,7 @@
     <section id="curse">
       <h1 class="h1-title underbar">コース</h1>
       <div class="container">
-        <ul class="cf">
+        <ul class="cf blockFlex">
           <li>
             <a href="#">
               <div class="innerWrapper">
@@ -226,6 +242,9 @@
     </footer>
   </body>
   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
 </html>
 <!-- メモ
 お知らせのところだけを動的に変更する要素にして後の要素はベタ書き
