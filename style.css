@@ -485,47 +485,47 @@ index.html
   color: #ccc;
 }
 
-#news {
+.news {
   background-color: #fcfcfc;
 }
 
-/*#news .container {
+/*.news .container {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
   background-color: #fff;
   padding: 60px 0;
   width: 100%;
 }*/
 
-#news ul {
+.news .content {
   width: 800px;
   margin: 0 auto;
 }
 
-#news li {
+.news .content li {
   border-bottom: 1px dashed #b4bfe0;
   padding: 0px 10px;
 }
 
-#news a {
+.news .content a {
   transition-duration: .15s;
 }
 
-#news li a:hover {
+.news .content li a:hover {
   color: #ccc;
 }
 
-#news li .date {
+.news .content li .date {
   float: left;
   width: 180px;
 }
 
-#news li .detail {
+.news .content li .detail {
   float: right;
   width: 600px;
 }
 
-#news li .date,
-#news li .detail {
+.news .content li .date,
+.news .content li .detail {
   height: 57px;
   line-height: 57px;
 }

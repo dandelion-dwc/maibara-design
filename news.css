@@ -1,0 +1,63 @@
+.container {
+  width: 1100px;
+}
+
+.newsContainer {
+  padding-top: 130px;
+}
+
+.news {
+  background-color: inherit;
+}
+
+.news .paginationUl {
+  width: 120px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.pagenation {
+  width: 100%;
+}
+
+.paginationUl li {
+  float: left;
+}
+
+.paginationUl a {
+  padding: 0 5px;
+}
+
+.leftContent {
+  float: left;
+}
+
+.rightContent {
+  float: right;
+}
+
+.archive {
+  width: 250px;
+}
+
+.archive h2 {
+  font-weight: 400;
+    font-size: 16px;
+    color: #f7f7f7;
+    background-color: #330d07;
+    line-height: 40px;
+    opacity: .9;
+    padding: 0 10px;
+}
+
+.archive li {
+  margin: 15px;
+}
+
+.newsContainer a {
+  transition-duration: .15s;
+}
+
+.newsContainer a:hover {
+  color: #ccc;
+}
