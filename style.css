@@ -486,7 +486,7 @@ index.html
 }
 
 #news {
-  /*background-color: #fff;*/
+  background-color: #fcfcfc;
 }
 
 /*#news .container {
@@ -532,8 +532,8 @@ index.html
 
 #curse {
   position: relative;
-  /*background-color: #f2f0f0;
-  z-index: -1;*/
+  background-color: #fff;
+  z-index: 0;
   /*下二つコメントインで背景全体がグレーに*/
 }
 
