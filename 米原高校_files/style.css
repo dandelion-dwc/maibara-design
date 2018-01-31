@@ -527,12 +527,12 @@ index.html
 
 .news .content li .tag {
   float: left;
-  width: 150px;
+  width: 130px;
 }
 
 .news .content li .detail {
   float: right;
-  width: 620px;
+  width: 600px;
 }
 
 .news .content li .tag,
@@ -546,11 +546,10 @@ index.html
 }
 
 .news .content li .tag span {
-  background-color: #333;
+  background-color: #FF5722;
   height: 26px;
   line-height: 26px;
   padding: 0 10px;
-  width: 96px;
   border-radius: 3px;
   display: inline-block;
   color: #f7f7f7;
