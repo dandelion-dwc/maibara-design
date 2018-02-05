@@ -10,8 +10,10 @@
 
     <header>
       <div class="container cf">
-        <h1 class="serif">米原高校</h1>
-         <nav>
+        <h1 class="serif"><a href="index.html">米原高校</a></h1>
+        <p class="only_sp">
+          <label for="modal-trigger-full"><i class="fas fa-bars fa-5x"></i>  </label></p>
+         <nav class="only_pc">
            <ul class="cf">
              <li><a href="news.html" class="nav_link">新着情報</a></li>
              <li><a href="about.html" class="nav_link">学校概要</a></li>
@@ -28,62 +30,84 @@
       <img src="main_pic.jpg" alt="メイン画像">
     </div>
 
-    <section class="news">
-      <div class="container">
-        <h1 class="h1-title underbar">新着情報</h1>
-        <ul class="content">
-          <li>
-            <a href="article.html" class="cf">
-              <div class="tag">
-                <span>お知らせ</span>
-              </div>
-              <div class="detail">
-                <p>
-                  <i class="fas fa-calendar-alt"></i>
-                  2017.12.18
-                </p>
-                <p>
-                  ホームページをリニューアルしました！！
-                </p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="article.html" class="cf">
-              <div class="tag">
-                <span>お知らせ</span>
-              </div>
-              <div class="detail">
-                <p>
-                  <i class="fas fa-calendar-alt"></i>
-                  2017.12.17
-                </p>
-                <p>
-                  loop to loopのクリスマスパーティーに参加しました！！
-                </p>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="article.html" class="cf">
-              <div class="tag">
-                <span>図書館だより</span>
-              </div>
-              <div class="detail">
-                <p>
-                  <i class="fas fa-calendar-alt"></i>
-                  2017.12.14
-                </p>
-                <p>
-                  図書だよりを発行しました。
-                </p>
-              </div>
-            </a>
-          </li>
-        </ul>
-        <div class="inlineFlexWrapper">
-          <a href="news.html" class="about-btn">さらに見る</a>
+    <div class="modal">
+      <input id="modal-trigger-full" class="checkbox" type="checkbox">
+      <div class="modal-overlay">
+        <label for="modal-trigger-full" class="o-close"></label>
+        <div class="modal-wrap full">
+          <label for="modal-trigger-full" class="close"><i class="fas fa-times fa-2x"></i></label>
+          <ul class="grobal-menue">
+            <li><a href="news.html" class="nav_link">新着情報</a></li>
+            <li><a href="about.html" class="nav_link">学校概要</a></li>
+            <li><a href="study.html" class="nav_link">本校の教育</a></li>
+            <li><a href="school_days.html" class="nav_link">学校生活</a></li>
+            <li><a href="test.html" class="nav_link">中学生のみなさまへ</a></li>
+            <li><a href="obog.html" class="nav_link">同窓会</a></li>
+            <li><label for="modal-trigger-full" class="custom-close">閉じる</label></li>
+          </ul>
         </div>
+      </div>
+    </div>
+
+
+
+    <section class="news">
+      <h1 class="h1-title underbar">新着情報</h1>
+      <ul class="content">
+        <li>
+          <a href="article.html" class="cf">
+            <div class="tag">
+              <span class="tag_content">お知らせ</span>
+              <span class="only_sp">2017.12.18</span>
+            </div>
+            <div class="detail">
+              <p class="only_pc">
+                <i class="fas fa-calendar-alt"></i>
+                2017.12.18
+              </p>
+              <p class="longString">
+                こちらをご確認ください。
+              </p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="article.html" class="cf">
+            <div class="tag">
+              <span class="tag_content">お知らせ</span>
+              <span class="only_sp">2017.12.17</span>
+            </div>
+            <div class="detail">
+              <p class="only_pc">
+                <i class="fas fa-calendar-alt"></i>
+                2017.12.17
+              </p>
+              <p class="longString">
+                loop to loopのクリスマスパーティーに参加しました！！
+              </p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="article.html" class="cf">
+            <div class="tag">
+              <span class="tag_content">図書館だより</span>
+              <span class="only_sp">2017.12.14</span>
+            </div>
+            <div class="detail">
+              <p class="only_pc">
+                <i class="fas fa-calendar-alt"></i>
+                2017.12.14
+              </p>
+              <p class="longString">
+                図書だよりを発行しました。
+              </p>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="inlineFlexWrapper">
+        <a href="news.html" class="about-btn">さらに見る</a>
       </div>
     </section>
 
@@ -148,7 +172,7 @@
         <h1 class="h1-title underbar">コース</h1>
         <ul class="cf blockFlex">
           <li>
-            <a href="#">
+            <a href="normal.html">
               <div class="innerWrapper">
                 <div class="img">
                   <div>
@@ -165,7 +189,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="english.html">
               <div class="innerWrapper">
                 <div class="img">
                   <div>
@@ -182,7 +206,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="risuka.html">
               <div class="innerWrapper">
                 <div class="img">
                   <div>
@@ -208,7 +232,7 @@
       <h1 class="h1-title underbar">アクセス</h1>
       <div class="container cf">
         <div class="map">
-          <iframe src="http://maps.google.co.jp/maps?f=q&source=s_q&hl=ja&geocode=&q=%E7%B1%B3%E5%8E%9F%E9%AB%98%E6%A0%A1&sll=34.980401,135.902942&sspn=0.044375,0.056992&brcurrent=h3,0x60010d533f1f4d81:0xf75fc99cab897752&ie=UTF8&hq=%E6%BB%8B%E8%B3%80%E7%9C%8C%E7%AB%8B%E7%B1%B3%E5%8E%9F%E9%AB%98%E6%A0%A1&hnear=%E3%80%92521-0092+%E6%BB%8B%E8%B3%80%E7%9C%8C%E7%AB%8B%E7%B1%B3%E5%8E%9F%E9%AB%98%E6%A0%A1&cid=9242307522744749095&ll=35.315966,136.293554&spn=0.028014,0.038624&z=14&output=embed" width="500" height="299", frameborder="0"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3931.7828622319794!2d136.29710720937794!3d35.31987640801778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x804345b95e1f0c27!2z5ruL6LOA55yM56uL57Gz5Y6f6auY562J5a2m5qCh!5e0!3m2!1sja!2sjp!4v1517552117972" width="100%" height="299" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="accessInfo">
           <table>
@@ -236,6 +260,35 @@
     <footer>
       <div class="container">
           <div class="cf">
+            <div class="sitemap">
+              <h3>訪問者別メニュー</h3>
+              <ul class="parent-ul cf">
+                <li class="parent-li">
+                  <h4><a href="#">中学生の皆様</a></h4>
+                  <ul class="child-ul">
+                    <li class="child-li"><a href="#">中学生のみなさまへ</a></li>
+                    <li class="child-li"><a href="#">学校概要</a></li>
+                    <li class="child-li"><a href="#">本校の教育</a></li>
+                    <li class="child-li"><a href="#">学校生活</a></li>
+                  </ul>
+                </li>
+                <li class="parent-li">
+                  <h4><a href="#">一般・卒業生の皆様</a></h4>
+                  <ul class="child-ul">
+                    <li class="child-li"><a href="#">各種証明書について</a></li>
+                    <li class="child-li"><a href="#">転・編入学情報</a></li>
+                  </ul>
+                </li>
+                <li class="parent-li">
+                  <h4><a href="#">在校生・保護者の皆様</a></h4>
+                  <ul class="child-ul">
+                    <li class="child-li"><a href="#">感染病（伝染病）の出席停止</a></li>
+                    <li class="child-li"><a href="#">特別警報・暴風警報の発令時</a></li>
+                    <li class="child-li"><a href="#">奨学金のご案内</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           <div class="schoolInfo">
             <h2>米原高校</h2>
             <p class="address">〒521-0092 <br>
@@ -243,44 +296,15 @@
             <p class="phone"><i class="fas fa-phone"></i> 0749-52-1601</p>
             <p class="fax"><i class="fas fa-fax"></i> 0749-52-1603</p>
           </div>
-          <div class="sitemap">
-            <h3>訪問者別メニュー</h3>
-            <ul class="parent-ul cf">
-              <li class="parent-li">
-                <h4><a href="#">中学生の皆様</a></h4>
-                <ul class="child-ul">
-                  <li class="child-li"><a href="#">中学生のみなさまへ</a></li>
-                  <li class="child-li"><a href="#">学校概要</a></li>
-                  <li class="child-li"><a href="#">本校の教育</a></li>
-                  <li class="child-li"><a href="#">学校生活</a></li>
-                </ul>
-              </li>
-              <li class="parent-li">
-                <h4><a href="#">一般・卒業生の皆様</a></h4>
-                <ul class="child-ul">
-                  <li class="child-li"><a href="#">各種証明書について</a></li>
-                  <li class="child-li"><a href="#">転・編入学情報</a></li>
-                </ul>
-              </li>
-              <li class="parent-li">
-                <h4><a href="#">在校生・保護者の皆様</a></h4>
-                <ul class="child-ul">
-                  <li class="child-li"><a href="#">感染病（伝染病）の出席停止</a></li>
-                  <li class="child-li"><a href="#">特別警報・暴風警報の発令時</a></li>
-                  <li class="child-li"><a href="#">奨学金のご案内</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
         </div>
         <div class="copyRight">
-          <p>© 2017 滋賀県立米原高校</p>
           <p>このHPは本校の卒業生も加わっているDandelionという学生企業に作成をお願いしました。</p>
+          <p>© 2017 滋賀県立米原高校</p>
         </div>
       </div>
     </footer>
   </body>
-
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </html>
 <!-- メモ
 お知らせのところだけを動的に変更する要素にして後の要素はベタ書き
