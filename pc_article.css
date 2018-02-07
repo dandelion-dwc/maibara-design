@@ -93,3 +93,20 @@
 .articleWrapper .contentZone img {
   margin: 20px 0;
 }
+
+.articleWrapper .contentZone table {
+  margin-bottom: 30px;
+}
+
+.articleWrapper .contentZone table thead th,
+.articleWrapper .contentZone table tbody th {
+  font-weight: 400;
+  text-align: left;
+}
+
+.articleWrapper .contentZone table th,
+.articleWrapper .contentZone table td {
+  border: 1px solid #aaa;
+  border-collapse: collapse;
+  padding: 10px 20px;
+}
